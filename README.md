@@ -1,24 +1,24 @@
-# README
+# Hello Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Apresentação do Bootcamp](https://speakerdeck.com/elainenaomi/bootcamp-de-rails-caquicoders-meetup)
 
-Things you may want to cover:
+# Criando o projeto
 
-* Ruby version
+`rails new hello-rails`
 
-* System dependencies
+# Iniciando a aplicação
 
-* Configuration
+`rails s` ou `rails server`
 
-* Database creation
 
-* Database initialization
+# Criando um CRUD para criar/listar/atualizar/apagar anotações
 
-* How to run the test suite
+`rails generate scaffold Notes content:string`
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+# Estrutura de diretórios
 
-* ...
+
+# Por que não usar o scaffold?
+
+
