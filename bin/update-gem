@@ -2,10 +2,10 @@
 # Usage: update-gem $GEM
 set -e
 if [ $# -lt 1 ]
-then 
-  echo "Usage: $(basename $0) GEMS..." 
-  exit 1 
-fi 
+then
+  echo "Usage: $(basename $0) GEMS..."
+  exit 1
+fi
 
 __update_dependency__() {
   echo -e "💎  \033[00mUpdating \033[0;31m$1\033[00m dependency..."
